@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+* {
+    margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: space-between;
+}
+
+main h3, h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+main p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(208, 11%, 55%);
+}
+
+.base{
+    background-image: url('bg-hero-desktop.svg');
+    width: 100%;
+    height: 100vh;
+}
+
+#logo{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 100px;
+}
+
+.free{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 150px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px white;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 20px rgba(175, 173, 173, 0.06);
+    background-color: white;
+    position: relative;
+    left: 950px;
+}
+
+.free:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+
+.text{
+    position: relative;
+    top: 90px;
+    left: 100px;
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+
+.textt{
+    position: relative;
+    top: 120px;
+    left: 100px;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+
+.btn1{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 200px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px white;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 20px rgba(175, 173, 173, 0.1);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.btn1:hover{
+    background-color: hsl(322, 63%, 69%);
+}
+
+.img{
+    width: 400px;
+    position: relative;
+    bottom: 100px;
+    left: 800px;
+}
+
+
+/** section 2*/
+
+
+.imgg{
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+    left: 700px;
+}
+
+.note{
+    position: relative;
+    top: 120px;
+    left: 100px;
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+
+.notee{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    text-align: left;
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+}
+
+.white{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 90px;
+    box-shadow: 0 10px 20px rgba(175, 173, 173, 0.19);
+}
+
+/*3rd section*/
+
+.immg{
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.txt{
+    position: relative;
+    bottom: 120px;
+    left: 700px;
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+
+.txxt{
+    position: relative;
+    bottom: 90px;
+    left: 700px;
+    text-align: left;
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+}
+
+.whitee{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 90px 50px 90px;
+    box-shadow: 0 10px 20px rgba(175, 173, 173, 0.19);
+}
+
+/*4th section*/
+.iimg{
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+    left: 700px;
+}
+
+/*float*/
+.mid{
+    border: none;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(179, 176, 176, 0.19);
+    position: relative;
+    top: 1500px;
+    bottom: 30px;
+    left: 500px;
+    width: 420px;
+    height: 150px;
+}
+
+.text3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+.btn2{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 200px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px white;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 10px 20px rgba(190, 190, 190, 0.12);
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.btn2:hover{
+    background-color: hsl(322, 63%, 69%);
+}
+
+  /*footer*/
+footer{
+    background-color: white;
+}
+footer p{
+    padding: 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    top: 1600px;
+
+}
+
+#logo2{
+    position: relative;
+    top: 1500px;
+    left: 50px;
+    width: 100px;
+    color: white;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+    
+}
